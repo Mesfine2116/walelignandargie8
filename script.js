@@ -10,3 +10,6 @@ function hideMenu() {
 }
 // navbar togglemenu end
 
+function toggleMode() {
+    document.body.classList.toggle("dark-mode");
+}
