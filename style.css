@@ -13,7 +13,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(#517e86c4, #949fdf1a), url(img/banner1.png);
+    background-image: linear-gradient(#517e86c4, #949fdf1a), url(img/banner.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -74,7 +74,7 @@ nav .fab {
 
 .text_box {
     width: 90%;
-    color: #fff;
+    color: #f1e9e9;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -82,10 +82,11 @@ nav .fab {
     text-align: center;
 }
 
+
 .text_box h2 {
     font-size: 90px;
     font-weight: 900;
-    color: #24f8c7;
+    color:rgb(128, 22, 128);
 }
 
 .text_box #headtext {
@@ -94,7 +95,7 @@ nav .fab {
     text-transform: uppercase;
     margin-top: -1%;
     margin-bottom: 1%;
-    color: #c8fff2;
+    color:rgb(128, 22, 128);
 }
 
 .text_box p {
@@ -108,12 +109,13 @@ nav .fab {
     display: inline-block;
     color: #fff;
     border: 1px solid #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
     cursor: pointer;
     text-decoration: none;
+    background-color: rgb(128, 22, 128) ;
 }
 
 .hero_btn:hover {
@@ -205,7 +207,7 @@ h1 {
     margin: 15px 0;
     line-height: 50px;
     text-transform: uppercase;
-    color: #24f8c7;
+    color:rgb(128, 22, 128);
 }
 
 p {
